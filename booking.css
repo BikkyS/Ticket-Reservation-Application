@@ -1,0 +1,205 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input[type=text] {
+    width: 100%;
+    padding: 5px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #555;
+    border-radius: 4px;
+    text-align: center;
+  }
+  input[type=text]:focus {
+    background-color: lightblue;
+  }
+select[type=text] {
+    width: 100%;
+    padding: 5px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #555;
+    border-radius: 4px;
+    text-align: center;
+  }
+  select[type=text]:focus {
+    background-color: lightblue;
+  }
+
+  .formele{
+    background-color: linen;     
+    font-size: 12px;
+    
+    margin-bottom: 12px;  
+    border-radius: 6px;
+    text-align: center;
+    width: 80%;
+  }
+  .notf{
+    text-align: center;
+    color: green;
+    font-size: 15px;
+    margin-top: 90px;
+  }
+ 
+  .famt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  .discount{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    flex-direction: column;
+  }
+  .discount1{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  #discount{
+    text-align: center;
+    width: 120px;
+    margin-bottom: 12px;
+    height: 28px;
+  }
+  #discount1{
+    flex-direction: column;
+    text-align: center;
+    width: 120px;
+    height: 28px;
+  }
+  #advance{
+    text-align: center;
+    width: 120px;
+    height: 28px;
+  }
+  input[type=number]::-webkit-inner-spin-button, 
+  input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.nav__menu{
+  padding: 0;
+}
+ul{
+  padding: 0;
+  font-size: 10px;
+}
+.nav__list{
+  column-gap: 0;
+}
+section{
+  margin-top: 60px;
+}
+#sbtbtn{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-bottom: 80px;
+}
+.sbtbtn:hover {background-color: #3e8e41}
+
+.sbtbtn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#parent{
+  position: relative;
+}
+
+#payment-button{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #5c2d91;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-bottom: 80px;
+}
+.payment-button:hover {background-color: #3e8e41}
+
+.payment-button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#payment-button1{
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #7f5da6;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-bottom: 80px;
+}
+.payment-button1:hover {background-color: #3e8e41}
+
+.payment-button1:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#apply{
+  background-color: #23cc29;
+  border: none;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-top: 13px;
+}
+#apply1{
+  background-color:#23cc29;
+  border: none;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 13px;
+}
+#onlinepay{
+  display: none;
+}
